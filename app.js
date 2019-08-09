@@ -16,11 +16,11 @@ const slack = new WebClient(process.env.SLACK_TOKEN);
 
   const list = await slack.emoji.list();
 
-  await Object.entries(list.emoji).forEach(async ([name, url]) => {
+  await Promise.all(Object.entries(list.emoji).forEach(async ([name, url]) => {
     if (!url.match(/^alias:/)) {
       const extention = url.match(/\.[^\.]+$/);
       const response = await request.get(url, { encoding: null });
       await fs.writeFile(`${exportDirName}/${name}${extention}`, response);
     }
-  });
+  }));
 })();
