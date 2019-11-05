@@ -24,6 +24,6 @@
     "@slack/web-api": "^5.3.0",
     "del": "^5.1.0",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.8"
   }
 }
