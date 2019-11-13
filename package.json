@@ -21,7 +21,7 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "dependencies": {
-    "@slack/web-api": "^5.4.0",
+    "@slack/web-api": "^5.5.0",
     "del": "^5.1.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8"
