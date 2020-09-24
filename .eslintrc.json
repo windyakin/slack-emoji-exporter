@@ -1,3 +1,10 @@
 {
-  "extends": "airbnb-base"
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended"
+  ],
+  "env": {
+    "node": true,
+    "es2020": true
+  }
 }
