@@ -21,7 +21,7 @@
     "url": "https://github.com/windyakin/slack-emoji-exporter/issues"
   },
   "devDependencies": {
-    "eslint": "^7.31.0",
+    "eslint": "^8.2.0",
     "eslint-plugin-node": "^11.1.0"
   },
   "dependencies": {
