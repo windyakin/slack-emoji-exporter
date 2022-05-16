@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@slack/web-api": "^6.3.0",
-    "del": "^6.0.0",
+    "del": "^6.1.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9"
   }
